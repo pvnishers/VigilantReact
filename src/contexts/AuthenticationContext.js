@@ -61,8 +61,7 @@ export const AuthenticationProvider = ({ children }) => {
             const data = await response.json();
             console.log(data.Message);
           } else {
-            const errorData = await response.json();
-            const errors = errorData.errors || ['An error occurred during registration.'];
+            const errors = await response.json();
             console.error(errors);
             console.log(errors);
             throw errors;
