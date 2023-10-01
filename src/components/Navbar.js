@@ -43,7 +43,7 @@ const Navbar = () => {
           </ul>
             <div className="d-flex mt-auto ms-auto">
               <span className="navbar-text me-2">
-                Olá, {currentUser?.fullName}!
+                Hello, {currentUser?.fullName}!
               </span>
               <button className="btn logout-button btn-outline-primary mt-auto" onClick={handleLogout}>
                 <FontAwesomeIcon icon={faRightFromBracket} />
