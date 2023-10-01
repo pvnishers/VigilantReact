@@ -1,0 +1,59 @@
+.custom-image-size {
+    width: 10rem;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+.person-card {
+    width: 16rem;
+    height: 25rem;
+    margin-bottom: 15px;
+}
+
+.navbar{
+  background-color: #f2f2f2 !important;
+  font-size: larger;
+}
+
+.btn-primary {
+  background-color: #0658f6 !important;
+  border-color: #0658f6 !important;
+}
+
+.nav-link:hover {
+  background-color: #d4dcf4;
+  color: #333;
+  border-radius: 5px;
+  max-width: 200px;
+}
+
+.active {
+  background-color: #085ef4;
+  color: #f2f2f2 !important;
+  border-radius: 5px;
+  max-width: 200px;
+}
+
+.modal-img{
+  max-height: 350px;
+  min-height: 150px;
+}
+
+.spacer{
+  height: 100%;
+}
+
+.background-color{
+  background-color: #f2f2f2;
+  max-height: 155vh;
+  min-height: 110vh;
+}
+
+
+.logout-button{
+  max-height: 35px;
+}
+
+.home-nav{
+  max-width: 50px;
+}
